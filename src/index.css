@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@layer utilities {
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.98);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+}
+
+@media print {
+  header,
+  footer,
+  nav,
+  button,
+  .no-print {
+    display: none !important;
+  }
+
+  body {
+    background: white !important;
+    color: black !important;
+  }
+
+  #mastery-certificate {
+    box-shadow: none !important;
+    border: 4px solid #1e1b4b !important;
+    margin: 0 auto !important;
+    page-break-inside: avoid;
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "ThermoQuest: Exothermic & Endothermic Chemistry Lab",
+  "description": "An interactive, gamified thermochemistry platform for Grade 11 students featuring virtual calorimeter experiments, energy diagram puzzles, fast-paced reaction sorting games, and bond enthalpy challenges.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
